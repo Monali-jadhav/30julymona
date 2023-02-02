@@ -16,7 +16,7 @@ public class TC_loginTestCase extends Ecommerce_BaseClass
 	   tel.SetPassword("Dell@1234");
 	   tel.button();
 	   
-	   if(driver.getTitle().equals("nopCommerce demo store"))
+	   if(driver.getTitle().equals("nopCommerce demo s"))
 	   {
 		   Assert.assertTrue(true);
 	   }
